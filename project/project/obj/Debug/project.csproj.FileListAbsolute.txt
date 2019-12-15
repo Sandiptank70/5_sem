@@ -1,0 +1,13 @@
+c:\users\sandip.p\documents\visual studio 2012\Projects\project\project\bin\Debug\project.exe.config
+c:\users\sandip.p\documents\visual studio 2012\Projects\project\project\bin\Debug\project.exe
+c:\users\sandip.p\documents\visual studio 2012\Projects\project\project\bin\Debug\project.pdb
+c:\users\sandip.p\documents\visual studio 2012\Projects\project\project\obj\Debug\project.csprojResolveAssemblyReference.cache
+c:\users\sandip.p\documents\visual studio 2012\Projects\project\project\obj\Debug\project.login_register_Form.resources
+c:\users\sandip.p\documents\visual studio 2012\Projects\project\project\obj\Debug\project.Properties.Resources.resources
+c:\users\sandip.p\documents\visual studio 2012\Projects\project\project\obj\Debug\project.csproj.GenerateResource.Cache
+c:\users\sandip.p\documents\visual studio 2012\Projects\project\project\obj\Debug\project.exe
+c:\users\sandip.p\documents\visual studio 2012\Projects\project\project\obj\Debug\project.pdb
+C:\Users\Sandip.P\Documents\project\project\bin\Debug\project.exe.config
+C:\Users\Sandip.P\Documents\project\project\obj\Debug\project.exe
+C:\Users\Sandip.P\Documents\project\project\obj\Debug\project.pdb
+C:\Users\Sandip.P\Documents\Visual Studio 2012\Projects\project\project\bin\Debug\mysql.data.dll

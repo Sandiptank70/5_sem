@@ -1,0 +1,13 @@
+c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\bin\Debug\studentreg2.exe.config
+c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\bin\Debug\studentreg2.exe
+c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\bin\Debug\studentreg2.pdb
+c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\bin\Debug\MaterialSkin.dll
+c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\obj\Debug\studentreg2.Properties.Resources.resources
+c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\obj\Debug\studentreg2.csproj.GenerateResource.Cache
+c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\obj\Debug\studentreg2.exe
+c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\obj\Debug\studentreg2.pdb
+c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\obj\Debug\studentreg2.Form1.resources
+c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\obj\Debug\studentreg2.student_registration.resources
+c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\bin\Debug\mysql.data.dll
+c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\obj\Debug\studentreg2.student_form.resources
+C:\Users\Sandip.P\Documents\Visual Studio 2012\Projects\studentreg2\studentreg2\obj\Debug\studentreg2.csprojResolveAssemblyReference.cache
