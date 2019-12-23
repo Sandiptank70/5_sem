@@ -31,3 +31,4 @@ C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _p
 C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final__project.view_data.resources
 C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final _project.csproj.GenerateResource.Cache
 C:\Users\Sandip.P\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final__project.update_info.resources
+C:\Users\Sandip.P\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final__project.find_stud.resources

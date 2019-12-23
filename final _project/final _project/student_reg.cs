@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace final__project
 {
-    public partial class student_reg : Form
+    public partial class student_reg :MaterialSkin.Controls.MaterialForm
     {
         public student_reg()
         {
@@ -46,6 +47,14 @@ namespace final__project
         private void remove_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void find_Click(object sender, EventArgs e)
+        {
+            find_stud find_stud = new find_stud();
+            find_stud.Show();
+            this.Hide();
+
         }
     }
 }

@@ -56,10 +56,13 @@
             this.update_phone = new System.Windows.Forms.TextBox();
             this.update_mobile = new System.Windows.Forms.TextBox();
             this.update_bodis = new System.Windows.Forms.TextBox();
-            this.update_stdcast = new System.Windows.Forms.ComboBox();
+            this.update_soc = new System.Windows.Forms.ComboBox();
             this.update_bod = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
             this.id = new System.Windows.Forms.TextBox();
+            this.update_image = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.update_image)).BeginInit();
             this.SuspendLayout();
             // 
             // texbox1
@@ -155,21 +158,21 @@
             this.update_name.Location = new System.Drawing.Point(505, 27);
             this.update_name.Name = "update_name";
             this.update_name.Size = new System.Drawing.Size(100, 20);
-            this.update_name.TabIndex = 3;
+            this.update_name.TabIndex = 2;
             // 
             // update_fname
             // 
             this.update_fname.Location = new System.Drawing.Point(108, 23);
             this.update_fname.Name = "update_fname";
             this.update_fname.Size = new System.Drawing.Size(100, 20);
-            this.update_fname.TabIndex = 9;
+            this.update_fname.TabIndex = 1;
             // 
             // update_lname
             // 
             this.update_lname.Location = new System.Drawing.Point(874, 27);
             this.update_lname.Name = "update_lname";
             this.update_lname.Size = new System.Drawing.Size(100, 20);
-            this.update_lname.TabIndex = 10;
+            this.update_lname.TabIndex = 3;
             // 
             // label4
             // 
@@ -262,10 +265,10 @@
             // 
             // update
             // 
-            this.update.Location = new System.Drawing.Point(413, 356);
+            this.update.Location = new System.Drawing.Point(63, 355);
             this.update.Name = "update";
             this.update.Size = new System.Drawing.Size(233, 46);
-            this.update.TabIndex = 23;
+            this.update.TabIndex = 16;
             this.update.Text = "update";
             this.update.UseVisualStyleBackColor = true;
             // 
@@ -274,61 +277,62 @@
             this.update_mname.Location = new System.Drawing.Point(108, 125);
             this.update_mname.Name = "update_mname";
             this.update_mname.Size = new System.Drawing.Size(100, 20);
-            this.update_mname.TabIndex = 24;
+            this.update_mname.TabIndex = 7;
             // 
             // update_cast
             // 
-            this.update_cast.Location = new System.Drawing.Point(505, 125);
+            this.update_cast.Location = new System.Drawing.Point(505, 123);
             this.update_cast.Name = "update_cast";
             this.update_cast.Size = new System.Drawing.Size(100, 20);
-            this.update_cast.TabIndex = 25;
+            this.update_cast.TabIndex = 8;
             // 
             // update_bop
             // 
             this.update_bop.Location = new System.Drawing.Point(505, 169);
             this.update_bop.Name = "update_bop";
             this.update_bop.Size = new System.Drawing.Size(100, 20);
-            this.update_bop.TabIndex = 26;
+            this.update_bop.TabIndex = 11;
             // 
             // update_phone
             // 
             this.update_phone.Location = new System.Drawing.Point(515, 239);
             this.update_phone.Name = "update_phone";
             this.update_phone.Size = new System.Drawing.Size(100, 20);
-            this.update_phone.TabIndex = 27;
+            this.update_phone.TabIndex = 14;
             // 
             // update_mobile
             // 
             this.update_mobile.Location = new System.Drawing.Point(108, 236);
             this.update_mobile.Name = "update_mobile";
             this.update_mobile.Size = new System.Drawing.Size(100, 20);
-            this.update_mobile.TabIndex = 28;
+            this.update_mobile.TabIndex = 13;
             // 
             // update_bodis
             // 
             this.update_bodis.Location = new System.Drawing.Point(915, 176);
             this.update_bodis.Name = "update_bodis";
             this.update_bodis.Size = new System.Drawing.Size(100, 20);
-            this.update_bodis.TabIndex = 29;
+            this.update_bodis.TabIndex = 12;
             // 
-            // update_stdcast
+            // update_soc
             // 
-            this.update_stdcast.FormattingEnabled = true;
-            this.update_stdcast.Items.AddRange(new object[] {
+            this.update_soc.FormattingEnabled = true;
+            this.update_soc.Items.AddRange(new object[] {
             "A",
             "B",
             "C"});
-            this.update_stdcast.Location = new System.Drawing.Point(908, 129);
-            this.update_stdcast.Name = "update_stdcast";
-            this.update_stdcast.Size = new System.Drawing.Size(121, 21);
-            this.update_stdcast.TabIndex = 30;
+            this.update_soc.Location = new System.Drawing.Point(908, 130);
+            this.update_soc.Name = "update_soc";
+            this.update_soc.Size = new System.Drawing.Size(121, 21);
+            this.update_soc.TabIndex = 9;
             // 
             // update_bod
             // 
+            this.update_bod.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.update_bod.Location = new System.Drawing.Point(108, 173);
             this.update_bod.Name = "update_bod";
             this.update_bod.Size = new System.Drawing.Size(200, 20);
-            this.update_bod.TabIndex = 31;
+            this.update_bod.TabIndex = 10;
             // 
             // label7
             // 
@@ -347,15 +351,34 @@
             this.id.Size = new System.Drawing.Size(100, 20);
             this.id.TabIndex = 34;
             // 
+            // update_image
+            // 
+            this.update_image.Location = new System.Drawing.Point(494, 284);
+            this.update_image.Name = "update_image";
+            this.update_image.Size = new System.Drawing.Size(188, 115);
+            this.update_image.TabIndex = 35;
+            this.update_image.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(708, 372);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(233, 46);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "browse";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // update_info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1148, 442);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.update_image);
             this.Controls.Add(this.id);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.update_bod);
-            this.Controls.Add(this.update_stdcast);
+            this.Controls.Add(this.update_soc);
             this.Controls.Add(this.update_bodis);
             this.Controls.Add(this.update_mobile);
             this.Controls.Add(this.update_phone);
@@ -386,6 +409,8 @@
             this.Controls.Add(this.texbox1);
             this.Name = "update_info";
             this.Text = "update_info";
+            this.Load += new System.EventHandler(this.update_info_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.update_image)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -421,9 +446,11 @@
         private System.Windows.Forms.TextBox update_phone;
         private System.Windows.Forms.TextBox update_mobile;
         private System.Windows.Forms.TextBox update_bodis;
-        private System.Windows.Forms.ComboBox update_stdcast;
+        private System.Windows.Forms.ComboBox update_soc;
         private System.Windows.Forms.DateTimePicker update_bod;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox id;
+        private System.Windows.Forms.PictureBox update_image;
+        private System.Windows.Forms.Button button1;
     }
 }

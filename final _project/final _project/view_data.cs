@@ -14,7 +14,7 @@ namespace final__project
 {
     public partial class view_data : Form
     {
-        my_db my_db = new my_db();
+        my_db db = new my_db();
         public view_data()
         {
             InitializeComponent();
@@ -32,11 +32,24 @@ namespace final__project
 
         private void view_submit_Click(object sender, EventArgs e)
         {
+
             string std = view_standrad.Text;
-            string CLass = view_class1.Text;
+           // string class123= view_class1.Text;
+       //     MessageBox.Show(class123);
+           MySqlDataAdapter data = new MySqlDataAdapter("select * from student where stud_std="+std,db.getConection);
+            DataTable dtbl = new DataTable();
+            data.Fill(dtbl);
+            MessageBox.Show(dtbl.Rows.Count.ToString());
+           dgvl1.DataSource = dtbl;
+           dgvl1.Refresh();
             
 
 
+        }
+
+        private void view_data_Load(object sender, EventArgs e)
+        {
+            db.openConnection();
         }
     }
 }

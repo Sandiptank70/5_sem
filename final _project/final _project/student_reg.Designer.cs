@@ -32,6 +32,7 @@
             this.view = new System.Windows.Forms.Button();
             this.update = new System.Windows.Forms.Button();
             this.remove = new System.Windows.Forms.Button();
+            this.find = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // registion
@@ -75,11 +76,22 @@
             this.remove.UseVisualStyleBackColor = true;
             this.remove.Click += new System.EventHandler(this.remove_Click);
             // 
+            // find
+            // 
+            this.find.Location = new System.Drawing.Point(689, 95);
+            this.find.Name = "find";
+            this.find.Size = new System.Drawing.Size(75, 23);
+            this.find.TabIndex = 4;
+            this.find.Text = "find";
+            this.find.UseVisualStyleBackColor = true;
+            this.find.Click += new System.EventHandler(this.find_Click);
+            // 
             // student_reg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(882, 335);
+            this.Controls.Add(this.find);
             this.Controls.Add(this.remove);
             this.Controls.Add(this.update);
             this.Controls.Add(this.view);
@@ -97,5 +109,6 @@
         private System.Windows.Forms.Button view;
         private System.Windows.Forms.Button update;
         private System.Windows.Forms.Button remove;
+        private System.Windows.Forms.Button find;
     }
 }

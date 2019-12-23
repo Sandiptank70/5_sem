@@ -64,11 +64,13 @@
             this.comboBoxcast = new System.Windows.Forms.ComboBox();
             this.standred_class12 = new System.Windows.Forms.ComboBox();
             this.bodtext = new System.Windows.Forms.DateTimePicker();
-            this.textdor2 = new System.Windows.Forms.DateTimePicker();
+            this.rigdate = new System.Windows.Forms.DateTimePicker();
             this.profile = new System.Windows.Forms.PictureBox();
             this.brose = new System.Windows.Forms.Button();
             this.student_submit = new System.Windows.Forms.Button();
             this.textboxaddress = new System.Windows.Forms.RichTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.grno = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.profile)).BeginInit();
             this.SuspendLayout();
             // 
@@ -396,13 +398,13 @@
             this.bodtext.Size = new System.Drawing.Size(200, 20);
             this.bodtext.TabIndex = 5;
             // 
-            // textdor2
+            // rigdate
             // 
-            this.textdor2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.textdor2.Location = new System.Drawing.Point(613, 378);
-            this.textdor2.Name = "textdor2";
-            this.textdor2.Size = new System.Drawing.Size(200, 20);
-            this.textdor2.TabIndex = 17;
+            this.rigdate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.rigdate.Location = new System.Drawing.Point(613, 378);
+            this.rigdate.Name = "rigdate";
+            this.rigdate.Size = new System.Drawing.Size(200, 20);
+            this.rigdate.TabIndex = 17;
             // 
             // profile
             // 
@@ -440,16 +442,34 @@
             this.textboxaddress.TabIndex = 6;
             this.textboxaddress.Text = "";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(49, 385);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(32, 13);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "GrNo";
+            // 
+            // grno
+            // 
+            this.grno.Location = new System.Drawing.Point(150, 381);
+            this.grno.Name = "grno";
+            this.grno.Size = new System.Drawing.Size(100, 20);
+            this.grno.TabIndex = 40;
+            // 
             // student_reg_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1139, 501);
+            this.Controls.Add(this.grno);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.textboxaddress);
             this.Controls.Add(this.student_submit);
             this.Controls.Add(this.brose);
             this.Controls.Add(this.profile);
-            this.Controls.Add(this.textdor2);
+            this.Controls.Add(this.rigdate);
             this.Controls.Add(this.bodtext);
             this.Controls.Add(this.standred_class12);
             this.Controls.Add(this.comboBoxcast);
@@ -533,10 +553,12 @@
         private System.Windows.Forms.ComboBox comboBoxcast;
         private System.Windows.Forms.ComboBox standred_class12;
         private System.Windows.Forms.DateTimePicker bodtext;
-        private System.Windows.Forms.DateTimePicker textdor2;
+        private System.Windows.Forms.DateTimePicker rigdate;
         private System.Windows.Forms.PictureBox profile;
         private System.Windows.Forms.Button brose;
         private System.Windows.Forms.Button student_submit;
         private System.Windows.Forms.RichTextBox textboxaddress;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox grno;
     }
 }

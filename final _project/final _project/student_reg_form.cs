@@ -61,8 +61,8 @@ namespace final__project
 
         private void student_submit_Click(object sender, EventArgs e)
         {
-           
-            
+
+            string gr = grno.Text;
                 string fname = textBoxfname.Text;
                 string stud_name = textBoxmname.Text;
                 string lname = textBoxlname.Text; 
@@ -78,16 +78,17 @@ namespace final__project
                 string boplace = textBoxbop.Text;
                 string mothertong = textBoxmotherton.Text;
                 string standradofcast = comboBoxcast.Text;
-                string CLass = Class.Text;
-                string rig_date = textdor2.Text;
+               // string CLass = Class.Text;
+                string rig_date = rigdate.Text;
                 string stand_class = standred_class12.Text;
 
                 if (veri("student_submit"))
                 {
                     MemoryStream pic = new MemoryStream();
                     profile.Image.Save(pic, profile.Image.RawFormat);
-                    // MySqlCommand command = new MySqlCommand("INSERT INTO student (stud_name, mother_name, bod, address, phone, mobile, email, stud_cast, soc, gender, bodis, bop, mother_ton, std,stud_class, rig_date) VALUES ( @name, @mother_name,@bod, @address,@phone,@mobile,@email, @cast, @soc,NULLS, @bodis, @bop, @mother_ton, @std, @class, @rig_date)", db.getConection);
-                    MySqlCommand cmd = new MySqlCommand("insert into student(stud_fname,stud_name,stud_lname,mother_name,bod,address,phone,mobile,email,stud_cast,soc,bodis, bop, mother_ton, std,image)values(@fname,@name,@lname,@mother,@bod,@address,@phone,@mobile,@email,@cast,@soc,@boids,@bop,@mother_ton,@std,@pic)", db.getConection);
+                  
+                    MySqlCommand cmd = new MySqlCommand("insert into student(grno,stud_fname,stud_name,stud_lname,mother_name,bod,address,phone,mobile,email,stud_cast,soc,bodis, bop, mother_ton,stud_std,stud_class, rig_date,image)values(@Gr,@fname,@name,@lname,@mother,@bod,@address,@phone,@mobile,@email,@cast,@soc,@boids,@bop,@mother_ton,@std,@stud_class,@rig_date,@pic)", db.getConection);
+                    cmd.Parameters.AddWithValue("@Gr", gr);                 
                     cmd.Parameters.AddWithValue("@fname", fname);//,stud_class, rig_date
                     cmd.Parameters.AddWithValue("@cast", cast);//,@std_class,@rig_date
                     cmd.Parameters.AddWithValue("@mother", mother);
