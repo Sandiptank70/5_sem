@@ -1,0 +1,33 @@
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\bin\Debug\final _project.exe.config
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\bin\Debug\final _project.exe
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\bin\Debug\final _project.pdb
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\bin\Debug\MaterialSkin.dll
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final _project.csprojResolveAssemblyReference.cache
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final__project.Form1.resources
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final__project.Properties.Resources.resources
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final _project.csproj.GenerateResource.Cache
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final _project.exe
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final _project.pdb
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\bin\Debug\mysql.data.dll
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final__project.login_page.resources
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final__project.admin_page.resources
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final__project.student_reg.resources
+c:\users\sandip.p\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final__project.student_reg_form.resources
+C:\Users\Sandip.P\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final__project.view_data.resources
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\bin\Debug\final _project.exe.config
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final _project.exe
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final _project.pdb
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\bin\Debug\final _project.exe
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\bin\Debug\final _project.pdb
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\bin\Debug\MaterialSkin.dll
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\bin\Debug\mysql.data.dll
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final _project.csprojResolveAssemblyReference.cache
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final__project.admin_page.resources
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final__project.Form1.resources
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final__project.login_page.resources
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final__project.Properties.Resources.resources
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final__project.student_reg.resources
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final__project.student_reg_form.resources
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final__project.view_data.resources
+C:\Users\server pc\Documents\Visual Studio 2012\Projects\final _project\final _project\obj\Debug\final _project.csproj.GenerateResource.Cache
+C:\Users\Sandip.P\documents\visual studio 2012\Projects\final _project\final _project\obj\Debug\final__project.update_info.resources

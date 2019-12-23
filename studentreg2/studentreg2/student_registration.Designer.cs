@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.new1 = new System.Windows.Forms.Button();
-            this.update = new System.Windows.Forms.Button();
-            this.delete = new System.Windows.Forms.Button();
             this.getdata = new System.Windows.Forms.Button();
+            this.delete = new System.Windows.Forms.Button();
+            this.update = new System.Windows.Forms.Button();
+            this.new1 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,26 +50,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
             // 
-            // new1
+            // getdata
             // 
-            this.new1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            this.new1.Location = new System.Drawing.Point(52, 39);
-            this.new1.Name = "new1";
-            this.new1.Size = new System.Drawing.Size(146, 41);
-            this.new1.TabIndex = 0;
-            this.new1.Text = "New";
-            this.new1.UseVisualStyleBackColor = false;
-            this.new1.Click += new System.EventHandler(this.new1_Click);
-            // 
-            // update
-            // 
-            this.update.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            this.update.Location = new System.Drawing.Point(52, 120);
-            this.update.Name = "update";
-            this.update.Size = new System.Drawing.Size(146, 41);
-            this.update.TabIndex = 2;
-            this.update.Text = "Update";
-            this.update.UseVisualStyleBackColor = false;
+            this.getdata.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.getdata.Location = new System.Drawing.Point(52, 287);
+            this.getdata.Name = "getdata";
+            this.getdata.Size = new System.Drawing.Size(146, 41);
+            this.getdata.TabIndex = 4;
+            this.getdata.Text = "Get data";
+            this.getdata.UseVisualStyleBackColor = false;
             // 
             // delete
             // 
@@ -80,16 +69,29 @@
             this.delete.TabIndex = 3;
             this.delete.Text = "Delete";
             this.delete.UseVisualStyleBackColor = false;
+            this.delete.Click += new System.EventHandler(this.delete_Click);
             // 
-            // getdata
+            // update
             // 
-            this.getdata.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            this.getdata.Location = new System.Drawing.Point(52, 287);
-            this.getdata.Name = "getdata";
-            this.getdata.Size = new System.Drawing.Size(146, 41);
-            this.getdata.TabIndex = 4;
-            this.getdata.Text = "Get data";
-            this.getdata.UseVisualStyleBackColor = false;
+            this.update.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.update.Location = new System.Drawing.Point(52, 120);
+            this.update.Name = "update";
+            this.update.Size = new System.Drawing.Size(146, 41);
+            this.update.TabIndex = 2;
+            this.update.Text = "Update";
+            this.update.UseVisualStyleBackColor = false;
+            this.update.Click += new System.EventHandler(this.update_Click);
+            // 
+            // new1
+            // 
+            this.new1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.new1.Location = new System.Drawing.Point(52, 39);
+            this.new1.Name = "new1";
+            this.new1.Size = new System.Drawing.Size(146, 41);
+            this.new1.TabIndex = 0;
+            this.new1.Text = "New";
+            this.new1.UseVisualStyleBackColor = false;
+            this.new1.Click += new System.EventHandler(this.new1_Click);
             // 
             // student_registration
             // 

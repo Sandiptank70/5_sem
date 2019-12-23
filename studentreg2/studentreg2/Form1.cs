@@ -31,6 +31,12 @@ namespace studentreg2
         {
             student_registration obj = new student_registration();
             obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

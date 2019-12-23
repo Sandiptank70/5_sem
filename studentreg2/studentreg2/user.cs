@@ -10,10 +10,10 @@ namespace studentreg2
 {
     class user
     {
-       my_db db = new my_db();
-        
+        my_db db = new my_db();
 
-        public bool insertUser(string fname,string lname,string faname,string Mobile,string Std,string Class2,string Emails,string address)
+
+        public bool insertUser(string fname, string lname, string faname, string Mobile, string Std, string Class2, string Emails, string address)
         {
             MySqlCommand command = new MySqlCommand("INSERT INTO `student2` (`id`, `fname`, `lname`, `faname`, `mo`, `std`, `class`, `eadd`, `add`) VALUES (NULL,@fname,@lname,@faname,@mo,@std,@class,@eadd, @add)", db.getConection);
             command.Parameters.Add("@fname", MySqlDbType.VarChar).Value = fname;
@@ -36,6 +36,25 @@ namespace studentreg2
                 return false;
             }
         }
+        public bool check(string fname, string lname)
+        {   
+            MySqlCommand command = new MySqlCommand("SELECT * FROM `student2` WHERE `fname` LIKE @fname AND `lname` LIKE @lname", db.getConection);
+            command.Parameters.Add("@fname", MySqlDbType.VarChar).Value = fname;
+            command.Parameters.Add("@lname", MySqlDbType.VarChar).Value = lname;
+            db.openConnection();
+            MySqlDataReader dr = command.ExecuteReader();
+            if (dr.Read())         
+            {
+                db.closeConnection();
+                return true;
+              
+            }
+            else
+            {
+                db.closeConnection();
+                return false;
+            }
+        }
+    }
 
-     }
 }

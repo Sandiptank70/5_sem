@@ -31,6 +31,20 @@ namespace studentreg2
         {
             student_form obj = new student_form();
             obj.Show();
+            student_registration obj2 = new student_registration();
+            obj2.Close();
+        }
+
+        private void update_Click(object sender, EventArgs e)
+        {
+            update_info update_info = new update_info();
+            update_info.Show();
+          
+        }
+
+        private void delete_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

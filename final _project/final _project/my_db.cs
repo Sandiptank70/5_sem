@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
-namespace studentreg2
+namespace final__project
 {
-    class connection
+    class my_db
     {
-        MySqlConnection con = new MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=student2");
+        MySqlConnection con = new MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=final");
         public MySqlConnection getConection
         {
             get

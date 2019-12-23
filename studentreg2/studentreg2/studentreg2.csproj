@@ -51,7 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="connection.cs" />
+    <Compile Include="delete_stu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete_stu.Designer.cs">
+      <DependentUpon>delete_stu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,7 +78,16 @@
     <Compile Include="student_registration.Designer.cs">
       <DependentUpon>student_registration.cs</DependentUpon>
     </Compile>
+    <Compile Include="update_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_info.Designer.cs">
+      <DependentUpon>update_info.cs</DependentUpon>
+    </Compile>
     <Compile Include="user.cs" />
+    <EmbeddedResource Include="delete_stu.resx">
+      <DependentUpon>delete_stu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="student_registration.resx">
       <DependentUpon>student_registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_info.resx">
+      <DependentUpon>update_info.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

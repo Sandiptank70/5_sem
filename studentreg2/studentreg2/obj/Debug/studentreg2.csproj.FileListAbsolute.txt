@@ -11,3 +11,5 @@ c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\
 c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\bin\Debug\mysql.data.dll
 c:\users\sandip.p\documents\visual studio 2012\Projects\studentreg2\studentreg2\obj\Debug\studentreg2.student_form.resources
 C:\Users\Sandip.P\Documents\Visual Studio 2012\Projects\studentreg2\studentreg2\obj\Debug\studentreg2.csprojResolveAssemblyReference.cache
+C:\Users\Sandip.P\Documents\Visual Studio 2012\Projects\studentreg2\studentreg2\obj\Debug\studentreg2.update_info.resources
+C:\Users\Sandip.P\Documents\Visual Studio 2012\Projects\studentreg2\studentreg2\obj\Debug\studentreg2.delete_stu.resources
