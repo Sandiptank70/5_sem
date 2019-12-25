@@ -346,6 +346,7 @@
             // 
             // comboBoxstd
             // 
+            this.comboBoxstd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxstd.FormattingEnabled = true;
             this.comboBoxstd.Items.AddRange(new object[] {
             "1",
@@ -367,6 +368,7 @@
             // 
             // comboBoxcast
             // 
+            this.comboBoxcast.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxcast.FormattingEnabled = true;
             this.comboBoxcast.Items.AddRange(new object[] {
             "sc",
@@ -379,6 +381,7 @@
             // 
             // standred_class12
             // 
+            this.standred_class12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.standred_class12.FormattingEnabled = true;
             this.standred_class12.Items.AddRange(new object[] {
             "A",
